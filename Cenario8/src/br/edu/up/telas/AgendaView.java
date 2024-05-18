@@ -1,5 +1,7 @@
 package br.edu.up.telas;
 
+import java.util.Scanner;
+
 class AgendaView {
     private Scanner scanner;
 

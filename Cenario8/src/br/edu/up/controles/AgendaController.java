@@ -1,5 +1,11 @@
 package br.edu.up.controles;
 
+import java.util.List; 
+import java.util.ArrayList; 
+import br.edu.up.modelos.Contato; 
+import br.edu.up.modelos.Pessoal;
+import br.edu.up.modelos.Comercial; o
+
 class AgendaController {
     private List<Contato> contatos;
 
