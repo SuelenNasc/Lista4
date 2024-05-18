@@ -1,8 +1,10 @@
 package br.edu.up;
 
-import br.edu.up.controles.SistemaEstacionamentoController;
-import br.edu.up.modelos.Estacionamento;
-import br.edu.up.telas.SistemaEstacionamentoView;
+import br.edu.up.controles.SistemaEstacionamentoController; 
+import br.edu.up.telas.SistemaEstacionamentoView; 
+import br.edu.up.modelos.Estacionamento; 
+import br.edu.up.modelos.Veiculo; 
+
 import java.util.Scanner;
 
 public class Programa {
@@ -10,7 +12,7 @@ public class Programa {
 
         Estacionamento estacionamento = new Estacionamento();
         SistemaEstacionamentoView view = new SistemaEstacionamentoView();
-        SistemaEstacionamentoController controller = new SistemaEstacionamentoController(estacionamento, view);
+        SistemaEstacionamentoController controller = new SistemaEstacionamentoController();
 
         boolean sair = false;
         while (!sair) {
@@ -22,7 +24,7 @@ public class Programa {
             System.out.println("Escolha uma opção:");
 
             int escolha = view.scanner.nextInt();
-            view.scanner.nextLine(); // Consumir nova linha
+            view.scanner.nextLine(); 
 
             switch (escolha) {
                 case 1:

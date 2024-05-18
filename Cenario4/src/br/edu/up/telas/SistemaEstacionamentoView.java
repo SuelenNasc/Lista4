@@ -1,5 +1,6 @@
 package br.edu.up.telas;
 
+import br.edu.up.modelos.Veiculo;
 import java.util.Scanner;
 
 public class SistemaEstacionamentoView {

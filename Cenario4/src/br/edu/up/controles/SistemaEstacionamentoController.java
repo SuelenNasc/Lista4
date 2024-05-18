@@ -1,11 +1,12 @@
 package br.edu.up.controles;
 
+import br.edu.up.modelos.Veiculo;
 import java.util.Scanner;
 
-public class SistemaEstacionamentoView {
+public class SistemaEstacionamentoController {
     private Scanner scanner;
 
-    public SistemaEstacionamentoView() {
+    public SistemaEstacionamentoController() {
         this.scanner = new Scanner(System.in);
     }
 
