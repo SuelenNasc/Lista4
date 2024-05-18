@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-abstract class Contato {
+public abstract class Contato {
     private int codigo;
     private String nome;
     private String telefone;

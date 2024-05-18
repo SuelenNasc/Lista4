@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.ArrayList; 
 import br.edu.up.modelos.Contato; 
 import br.edu.up.modelos.Pessoal;
-import br.edu.up.modelos.Comercial; o
+import br.edu.up.modelos.Comercial;
 
-class AgendaController {
+public class AgendaController {
     private List<Contato> contatos;
 
     public AgendaController() {
