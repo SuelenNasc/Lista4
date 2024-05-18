@@ -1,6 +1,12 @@
 package br.edu.up.controles;
 
-class ClienteController {
+import br.edu.up.modelos.Cliente; 
+import br.edu.up.modelos.ClientePessoa; 
+import br.edu.up.modelos.ClienteEmpresa; 
+import br.edu.up.modelos.Endereco; 
+import java.util.HashMap; 
+
+public class ClienteController {
     private HashMap<String, Cliente> clientes;
 
     public ClienteController() {

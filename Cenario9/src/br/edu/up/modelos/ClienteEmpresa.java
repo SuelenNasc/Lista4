@@ -1,6 +1,6 @@
 package br.edu.up.modelos;
 
-class ClienteEmpresa extends Cliente {
+public class ClienteEmpresa extends Cliente {
     private String CNPJ;
     private String inscEstadual;
     private int anoFundacao;

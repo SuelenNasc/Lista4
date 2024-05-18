@@ -3,7 +3,7 @@ package br.edu.up.modelos;
 import java.util.HashMap;
 import java.util.Scanner;
 
-abstract class Cliente {
+public abstract class Cliente {
     private String nome;
     private String telefone;
     private String email;

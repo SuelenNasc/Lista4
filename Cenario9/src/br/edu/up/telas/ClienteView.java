@@ -1,7 +1,9 @@
 package br.edu.up.telas;
 
-class ClienteView {
-    
+import java.util.Scanner;
+
+public class ClienteView {
+
     private ClienteController controller;
     private Scanner scanner;
 
@@ -25,7 +27,7 @@ class ClienteView {
             System.out.println("9. Sair");
             System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Limpar o buffer
+            scanner.nextLine(); 
 
             switch (opcao) {
                 case 1:
@@ -65,16 +67,15 @@ class ClienteView {
     private void incluirClientePessoa() {
         System.out.print("Nome: ");
         String nome = scanner.nextLine();
-        // Leitura dos outros dados do cliente pessoa
-        // ...
+       
+       
         controller.incluirClientePessoa(nome, ...);
     }
 
     private void incluirClienteEmpresa() {
         System.out.print("Nome: ");
         String nome = scanner.nextLine();
-        // Leitura dos outros dados do cliente empresa
-        // ...
+      
         controller.incluirClienteEmpresa(nome, ...);
     }
 

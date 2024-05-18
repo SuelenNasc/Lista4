@@ -1,6 +1,6 @@
 package br.edu.up.modelos;
 
-class Cidade {
+public class Cidade {
     private String nome;
     private String UF;
 
