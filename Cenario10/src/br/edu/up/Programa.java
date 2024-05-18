@@ -1,5 +1,7 @@
 package br.edu.up;
-
+import java.util.Scanner;
+import br.edu.up.controles.SeguroController;
+import br.edu.up.telas.SeguroView;
 public class Programa {
     public static void main(String[] args) throws Exception  {
         SeguroController controller = new SeguroController();
