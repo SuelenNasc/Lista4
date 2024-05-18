@@ -2,7 +2,7 @@ package br.edu.up.modelos;
 
 import java.util.Arrays;
 import br.edu.up.modelos.Compromisso;
-import br.edu.up.modelos.Mes;
+import br.edu.up.modelos.Dia;
 import br.edu.up.modelos.Ano;
 
 
@@ -10,6 +10,30 @@ public class Mes {
     private String nome;
     private int qtdeDias;
     private Dia[] dias;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getQtdeDias() {
+        return qtdeDias;
+    }
+
+    public void setQtdeDias(int qtdeDias) {
+        this.qtdeDias = qtdeDias;
+    }
+
+    public Dia[] getDias() {
+        return dias;
+    }
+
+    public void setDias(Dia[] dias) {
+        this.dias = dias;
+    }
 
     public Mes(int qtdeDias, String nome) {
         this.nome = nome;
@@ -20,7 +44,7 @@ public class Mes {
         }
     }
 
-    public void adicionarDia(Dia dia) {
+    public void adicionarDia(Dia dia ) {
         if (diaMes > 0 && diaMes <= qtdeDias) {
             dias[diaMes - 1] = dia;
         }
